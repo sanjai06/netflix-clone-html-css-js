@@ -11,7 +11,7 @@
   .row__poster {
     width: 100%;
     object-fit: contain;
-    max-height: 100px;
+    max-height: 150px;
     margin-right: 10px;
     transition: transform 450ms;
   }
@@ -32,32 +32,36 @@
   }
   
   .row__posterLarge {
-    max-height: 250px;
+    max-height: 350px;
   }
   
   .row__posterLarge:hover {
-    transform: scale(1.09);
+    transform: scale(1.1);
   }
   
   .row {
     color: white;
-    margin-left: 20px;
+    margin-left: 30px;
+  }
+
+  .row > h2{
+    font-size: 30px;
   }
   
   /* banner */
   .banner {
     background-image: url('./Assets/Images/banner.jpg');
-    background-size: cover;
+    background-size: fill;
+    background-repeat: no-repeat;
     background-position: center center;
     color: white;
-    object-fit: contain;
-    height: 448px;
+    height: 60vh;
   }
   
   .banner__contents {
-    margin-left: 30px;
-    padding-top: 140px;
-    height: 190px;
+    margin-left: 50px;
+    padding-top: 25vh;
+    height: 35vh;
   }
   
   .banner__title {
